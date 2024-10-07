@@ -1,0 +1,2 @@
+PORT=8000
+MONGO_URL=mongodb+srv://meetsabhani18:MeetSabhani3101@testing.duqip.mongodb.net/your_database_name?retryWrites=true&w=majority
