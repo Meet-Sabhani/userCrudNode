@@ -2,6 +2,7 @@ import User from "../model/userModel.js";
 import _ from "lodash";
 
 export const create = async (req, res) => {
+  console.log("req: ", req);
   try {
     const newUser = new User(req.body);
     const { email } = newUser;
